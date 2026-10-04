@@ -6,6 +6,7 @@ import BarModalities from "@/components/BarModalities";
 import QuoteCalculator from "@/components/QuoteCalculator";
 import Footer from "@/components/Footer";
 import AmbientParticles from "@/components/AmbientParticles";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 export default function Home() {
   return (
@@ -33,6 +34,9 @@ export default function Home() {
 
       {/* Refined Footer */}
       <Footer />
+
+      {/* Boutique Floating WhatsApp Concierge Widget */}
+      <FloatingWhatsApp />
     </main>
   );
 }

@@ -187,7 +187,7 @@ export default function CocktailShowcase() {
       : cocktails.filter((c) => c.category === activeFilter);
 
   return (
-    <section id="mixologia" className="py-28 px-6 sm:px-8 max-w-7xl mx-auto relative">
+    <section id="mixologia" className="py-16 sm:py-24 lg:py-28 px-6 sm:px-8 max-w-7xl mx-auto relative">
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-16">
         <span className="text-xs uppercase tracking-[0.3em] text-[#D4AF37] font-semibold block mb-3">

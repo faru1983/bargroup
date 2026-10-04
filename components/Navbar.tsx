@@ -62,7 +62,7 @@ export default function Navbar() {
         {/* Action Button: WhatsApp */}
         <div className="hidden sm:flex items-center gap-4">
           <a
-            href="https://wa.me/56999999999?text=Hola%20Bargroup%2C%20me%20gustar%C3%ADa%20cotizar%20un%20servicio%20de%20barra%20m%C3%B3vil"
+            href="https://wa.me/5698971653?text=Hola%20Bargroup%2C%20me%20gustar%C3%ADa%20cotizar%20un%20servicio%20de%20barra%20m%C3%B3vil"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full text-xs uppercase tracking-wider font-semibold text-[#090909] bg-gradient-to-r from-[#F3E5AB] via-[#D4AF37] to-[#E5C158] hover:shadow-[0_0_20px_rgba(212,175,55,0.5)] transition-all duration-300 transform hover:-translate-y-0.5"
@@ -103,7 +103,7 @@ export default function Navbar() {
           </div>
           <div className="pt-2">
             <a
-              href="https://wa.me/56999999999?text=Hola%20Bargroup%2C%20me%20gustar%C3%ADa%20cotizar%20un%20servicio%20de%20barra%20m%C3%B3vil"
+              href="https://wa.me/5698971653?text=Hola%20Bargroup%2C%20me%20gustar%C3%ADa%20cotizar%20un%20servicio%20de%20barra%20m%C3%B3vil"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex items-center justify-center gap-2 py-3 rounded-full text-xs uppercase tracking-wider font-semibold text-[#090909] bg-gradient-to-r from-[#F3E5AB] via-[#D4AF37] to-[#E5C158] shadow-[0_0_15px_rgba(212,175,55,0.3)]"

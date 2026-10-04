@@ -1,14 +1,14 @@
-import { GlassWater, MessageCircle, Mail, MapPin } from "lucide-react";
+import { GlassWater, MessageCircle, Mail, MapPin, Phone } from "lucide-react";
 import InstagramIcon from "./InstagramIcon";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#060606] border-t border-[#D4AF37]/20 pt-20 pb-12 overflow-hidden">
+    <footer className="relative bg-[#060606] border-t border-[#D4AF37]/20 pt-16 sm:pt-20 pb-10 overflow-hidden">
       {/* Background Soft Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-24 bg-[#D4AF37]/5 blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-16 border-b border-white/5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 sm:gap-12 pb-14 border-b border-white/5">
           {/* Brand Info */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
@@ -40,7 +40,7 @@ export default function Footer() {
                 <InstagramIcon className="w-4 h-4" />
               </a>
               <a
-                href="https://wa.me/56999999999"
+                href="https://wa.me/5698971653"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp de Bargroup"
@@ -83,22 +83,30 @@ export default function Footer() {
           {/* Coverage & Contact */}
           <div className="lg:col-span-4 space-y-3">
             <h5 className="text-xs uppercase tracking-[0.25em] text-[#F3E5AB] font-semibold mb-4">
-              Cobertura en Chile
+              Cobertura & Contacto en Chile
             </h5>
-            <div className="space-y-2 text-xs text-[#A39E93]">
+            <div className="space-y-2.5 text-xs text-[#A39E93]">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-3.5 h-3.5 text-[#D4AF37] shrink-0 mt-0.5" />
                 <span>Región Metropolitana (Santiago, Chicureo, Pirque, Calera de Tango)</span>
               </div>
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-3.5 h-3.5 text-[#D4AF37] shrink-0 mt-0.5" />
-                <span>V Región (Viña del Mar, Zapallar, Cachagua, Olmué)</span>
+                <span>V Región (Viña del Mar, Zapallar, Cachagua, Concón)</span>
               </div>
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-3.5 h-3.5 text-[#D4AF37] shrink-0 mt-0.5" />
                 <span>VI Región (Rancagua, Machalí, Valle de Colchagua)</span>
               </div>
-              <div className="flex items-center gap-2.5 pt-2 text-[#F7F5F0]">
+              
+              <div className="flex items-center gap-2.5 pt-3 text-[#F7F5F0]">
+                <Phone className="w-3.5 h-3.5 text-[#D4AF37]" />
+                <a href="tel:+5698971653" className="hover:text-[#D4AF37] transition-colors font-medium">
+                  +56 9 8971 653
+                </a>
+              </div>
+
+              <div className="flex items-center gap-2.5 text-[#F7F5F0]">
                 <Mail className="w-3.5 h-3.5 text-[#D4AF37]" />
                 <a href="mailto:contacto@bargroup.cl" className="hover:text-[#D4AF37] transition-colors">
                   contacto@bargroup.cl

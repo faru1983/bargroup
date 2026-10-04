@@ -63,12 +63,12 @@ export default function QuoteCalculator() {
 
     const message = getWhatsAppMessage();
     const encoded = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/56999999999?text=${encoded}`;
+    const whatsappUrl = `https://wa.me/5698971653?text=${encoded}`;
     window.open(whatsappUrl, "_blank");
   };
 
   return (
-    <section id="cotizador" className="py-28 px-6 sm:px-8 max-w-7xl mx-auto relative">
+    <section id="cotizador" className="py-16 sm:py-24 max-w-7xl mx-auto px-6 sm:px-8 relative">
       {/* Background Ambient Lighting */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-[#D4AF37]/5 blur-[140px] pointer-events-none rounded-full" />
 

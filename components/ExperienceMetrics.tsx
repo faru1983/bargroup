@@ -84,7 +84,7 @@ export default function ExperienceMetrics() {
     <section
       id="experiencia"
       ref={containerRef}
-      className="relative py-28 px-6 sm:px-8 max-w-7xl mx-auto overflow-hidden"
+      className="relative py-16 sm:py-24 lg:py-28 px-6 sm:px-8 max-w-7xl mx-auto overflow-hidden"
     >
       {/* Background Soft Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#D4AF37]/5 blur-[120px] pointer-events-none rounded-full" />
